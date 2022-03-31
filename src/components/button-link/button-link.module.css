@@ -1,0 +1,14 @@
+.buttonLink {
+  background: none;
+  border: none;
+  color: var(--green);
+  cursor: pointer;
+  font: inherit;
+  margin-right: 1.5rem;
+  outline: inherit;
+  padding: 0;
+}
+
+.buttonLink.inline {
+  display: inline;
+}

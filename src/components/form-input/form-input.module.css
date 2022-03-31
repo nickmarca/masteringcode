@@ -1,0 +1,27 @@
+.container {
+  border: 0.1rem solid var(--white);
+  border-radius: 0.6rem;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  background: transparent;
+  border: 0;
+  padding: 1rem 1rem 1rem 4rem;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  left: 0;
+  padding: 1.2rem 1rem;
+  position: absolute;
+  top: 0;
+}
+
+.icon > svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}

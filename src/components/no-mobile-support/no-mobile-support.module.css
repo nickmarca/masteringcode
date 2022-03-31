@@ -1,0 +1,22 @@
+.xs {
+  align-items: center;
+  justify-content: center;
+  background: var(--primaryDark);
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.lg {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .xs {
+    display: none;
+  }
+
+  .lg {
+    display: block;
+  }
+}

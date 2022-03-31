@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+}
+
+.field {
+  margin-bottom: 2rem;
+}
+
+.field:last-of-type {
+  margin-bottom: 3rem;
+}
+
+.subscribeMessage {
+  color: var(--gray);
+  margin: 1rem 0 3rem;
+  text-align: center;
+}
+
+.subscribeMessage > span {
+  color: var(--green);
+}
+
+.logInButton {
+    margin-bottom: 1.5rem;
+}

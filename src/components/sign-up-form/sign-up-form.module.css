@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+}
+
+.field {
+  margin-bottom: 2rem;
+}
+
+.alreadySubscribedMessage,
+.legalMessage {
+  color: var(--gray);
+  margin: 1rem 0 3rem;
+  text-align: center;
+}
+
+.alreadySubscribedMessage > span,
+.legalMessage > span {
+  color: var(--green);
+}
+
+.signUpButton {
+    margin-bottom: 1.5rem;
+}

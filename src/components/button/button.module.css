@@ -1,0 +1,21 @@
+.common {
+  border: none;
+  background: none;
+  border-radius: 1rem;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  outline: inherit;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.primary {
+  background: var(--secondary);
+  color: var(--white);
+  font-weight: 700;
+}
+
+.primary.disabled {
+    background: var(--primaryLight);
+}

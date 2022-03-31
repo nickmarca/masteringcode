@@ -1,0 +1,18 @@
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 1rem;
+}
+
+.signOutButton {
+  background: none;
+  border: none;
+  color: var(--green);
+  cursor: pointer;
+  display: inline;
+  font: inherit;
+  outline: inherit;
+  padding: 0;
+}

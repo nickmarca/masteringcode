@@ -1,0 +1,72 @@
+.container {
+  background: var(--primary);
+  border-radius: 2rem;
+  padding: 3rem 0;
+}
+
+.container h5 {
+  padding: 0 4rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  border-bottom: 0.1rem solid var(--primaryLight);
+  list-style: none;
+}
+
+.list li:last-of-type {
+  border-bottom: none;
+}
+
+.list li a {
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1.7rem 4rem;
+}
+
+.list li a span.title {
+  flex: 1;
+}
+
+.list li a span.difficulty {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+span.difficulty.easy {
+  color: var(--green);
+}
+
+span.difficulty.average {
+  color: var(--yellow);
+}
+
+.list li a:hover {
+  background: var(--primaryLight);
+}
+
+.list li span.checkbox {
+  border: 0.1rem solid var(--primaryLighter);
+  border-radius: 0.3rem;
+  content: '';
+  display: inline-block;
+  height: 2rem;
+  margin-right: 2rem;
+  position: relative;
+  width: 2rem;
+}
+
+.checkbox > svg {
+  bottom: 0.5rem;
+  left: 0.1rem;
+  position: relative;
+}

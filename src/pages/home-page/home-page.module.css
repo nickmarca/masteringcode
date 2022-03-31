@@ -1,0 +1,13 @@
+.main {
+  grid-column: col-start / span 12;
+}
+
+@media only screen and (min-width: 1400px) {
+  .main {
+    grid-column: col-start / span 6;
+  }
+}
+
+.main h1 {
+  margin-bottom: 3rem;
+}
